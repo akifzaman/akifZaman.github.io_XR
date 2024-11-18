@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Immersion Unbound</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/20b417e3c8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script async src="js/index.js"></script>
+    </head>
+    
+    <body>
+        <header>
+
+            <div class="logo">
+                <!-- <img src=http://andreyradovski.com/images/homeheaderb.png alt="developer's logo"> -->
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#services">My Services</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#work">My Work</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section class="intro" id="home">
+
+            <h1 class="section__title section__title--intro">
+                Hi, I'm <strong>Md. Akif Zaman</strong>
+            </h1>
+            
+            <p class="section__subtitle section__subtitle--intro">XR creative developer</p>
+            <img class="intro__img" src="img/DP.jpg" alt="Akif Zaman photo">
+
+        </section>
+
+        <section class="my-services" id="services">
+
+            <h2 class="section__title section__title--services">What I do</h2>
+            
+            <div class="services">
+
+                <div class="service">
+                    <h3>Web-based XR</h3>
+                    <p>Combining the latest tools for web-based AR and VR like 8th Wall, PlayCanvas, ThreeJS with the best practices in responsive web design to create seamless and accessible experiences</p>
+                </div>
+
+                <div class="service">
+                    <h3>Unity XR</h3>
+                    <p>For complex virtual applications like training suites and custom audio-reactive visualizations there’s Unity. Scripting interactions, lighting the scenes and building interfaces are all in my toolbox
+                    </p>
+                </div>
+                
+                <div class="service">
+                    <h3>Game Development</h3>
+                    <p>Creating engaging and interactive games using cutting-edge tools like Unity, with expertise in gameplay mechanics, level design, and player experience optimization
+                    </p>
+                </div>
+            </div>
+
+            <a class="btn" href="#work">My Work</a>
+
+        </section>
+
+        <section class="about-me" id="about">
+
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">XR and Game Developer</p>
+            <div class="about-me__body">
+                <p>With over 2.5 years of professional experience in Unity, I’ve been at the forefront of crafting immersive XR solutions and captivating game experiences. As a creative problem solver, I’ve had the privilege of contributing to high-profile projects for renowned clients like Nissan, No1 Events-UAE, Hemas, Akij Tiles and Ceramics, KFC, and others. Whether it’s developing cutting-edge AR and VR applications or designing engaging gameplay mechanics, I thrive on blending technical expertise with artistic vision to deliver innovative results.</p>
+                <p>I pride myself on being a relentless hard worker who doesn’t rest until the vision becomes reality. Every project is a journey of exploration and dedication, and I tackle challenges head-on, ensuring successful delivery no matter the obstacles. My commitment to excellence has been the backbone of my career, enabling me to meet client expectations while pushing creative boundaries in the XR and game development domains.
+                </p>
+            </div>
+
+            <img class="about-me__img" src="img/ExperienceMoment.png" alt="Andrey Radovski amazed at what he sees through Magic Leap One augmented reality glasses">
+
+        </section>
+
+        <section class="my-work" id="work">
+
+            <h2 class="section__title section__title--work">AR - VR - MR</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my AR, VR, MR project contributions</p>
+
+            <!-- <h2 class="section__title section__title--work">Augmented Reality</h2> -->
+            <div class="portfolio">
+                <!-- Portfolio item 2 -->
+                <a href="portfolio-item4_neon-one.html" class="portfolio__item">
+                    <img src="img/Akij.png" alt="3D outline of a man dancing in a colorful abstract virtual landscape" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity AR<br><strong>Tiles TryOn</strong></div>
+                </a>
+                <!-- Portfolio item 3 -->
+                <a href="portfolio-item2_stereoh.html" class="portfolio__item">
+                    <img src="img/FurnitureTryOn.png" alt="beautiful virtual oasis with a stage framed my polygonal palm trees" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity AR<br><strong>Furniture TryOn</strong></div>
+                </a>
+                <!-- Portfolio item 4 -->
+                <a href="portfolio-item3_sevdah-body.html" class="portfolio__item">
+                    <img src="img/KFC.png" alt="dancer moving on stage with guitar player in background" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity AR<br><strong>Product Campaign</strong></div>
+                </a>
+            </div>
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <a href="portfolio-item1_style-hunt.html" class="portfolio__item">
+                    <img src="img/NDG.png" alt="fashionable lady walking the streets of New York with a smile" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity AR<br><strong>Nissan Driver's Guide ME</strong></div>
+                </a>
+                <!-- Portfolio item 5 -->
+                <a href="portfolio-item1_style-hunt.html" class="portfolio__item">
+                    <img src="img/Gitex.png" alt="fashionable lady walking the streets of New York with a smile" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity + Meta Quest3<br><strong>GITEX Demo</strong></div>
+                </a>
+            </div>
+        </section>
+
+        <section class="my-work" id="work">
+
+            <h2 class="section__title section__title--work">Miscellaneous</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my project where I had to go beyond Unity</p>
+            <div class="portfolio">
+            
+                <!-- Portfolio item 3 -->
+                <a href="portfolio-item3_sevdah-body.html" class="portfolio__item">
+                    <img src="img/Nissan3D.png" alt="dancer moving on stage with guitar player in background" class="portfolio__img">
+                    <div class="portfolio__item-tag">3D + Chatbot<br><strong>Nissan 3D Car Visualizer</strong></div>
+                </a>
+
+                <!-- Portfolio item 6 -->
+                <a href="portfolio-item2_stereoh.html" class="portfolio__item">
+                    <img src="img/8thWall.png" alt="beautiful virtual oasis with a stage framed my polygonal palm trees" class="portfolio__img">
+                    <div class="portfolio__item-tag">8th Wall<br><strong>Consumer Engagement</strong></div>
+                </a>
+
+                <!-- Portfolio item 8 -->
+                <a href="portfolio-item4_neon-one.html" class="portfolio__item">
+                    <img src="img/Hemas.png" alt="3D outline of a man dancing in a colorful abstract virtual landscape" class="portfolio__img">
+                    <div class="portfolio__item-tag">JS + Mediapipe<br><strong>Product Campaign</strong></div>
+                </a>
+            </div>
+        </section>
+
+        <section class="my-work" id="work">
+
+            <h2 class="section__title section__title--work">Unity Asset Store Contribution</h2>
+            <p class="section__subtitle section__subtitle--work">My small contributions to Unity Asset Store</p>
+
+            <!-- <h2 class="section__title section__title--work">Augmented Reality</h2> -->
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <a href="portfolio-item3_sevdah-body.html" class="portfolio__item">
+                    <img src="img/QR.png" alt="dancer moving on stage with guitar player in background" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity<br><strong>Dynamic QR Generator</strong></div>
+                </a>
+
+                <!-- Portfolio item 2 -->
+                <a href="portfolio-item4_neon-one.html" class="portfolio__item">
+                    <img src="img/Puzzle.png" alt="3D outline of a man dancing in a colorful abstract virtual landscape" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity 2D + 3D<br><strong>Dynamic Puzzle System</strong></div>
+                </a>
+                <!-- Portfolio item 3 -->
+                <a href="portfolio-item3_sevdah-body.html" class="portfolio__item">
+                    <img src="img/Mega.png" alt="dancer moving on stage with guitar player in background" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity + Mega SDK<br><strong>Mega Integration</strong></div>
+                </a>
+
+                <!-- Portfolio item 4 -->
+                <a href="portfolio-item4_neon-one.html" class="portfolio__item">
+                    <img src="img/TapGames.png" alt="3D outline of a man dancing in a colorful abstract virtual landscape" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity 2D<br><strong>Tap Based Game Maker</strong></div>
+                </a>
+            </div>
+        </section>
+
+        <section class="my-work" id="work">
+
+            <h2 class="section__title section__title--work">Game Development</h2>
+            <p class="section__subtitle section__subtitle--work">One of my other passion which could not be a part of my profession</p>
+
+            <!-- <h2 class="section__title section__title--work">Augmented Reality</h2> -->
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <a href="portfolio-item3_sevdah-body.html" class="portfolio__item">
+                    <img src="img/StoneHurler.png" alt="dancer moving on stage with guitar player in background" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity 2D<br><strong>StoneHurler</strong></div>
+                </a>
+
+                <!-- Portfolio item 2 -->
+                <a href="portfolio-item4_neon-one.html" class="portfolio__item">
+                    <img src="img/SpaceShooter.png" alt="3D outline of a man dancing in a colorful abstract virtual landscape" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity 2D<br><strong>Lost In Space</strong></div>
+                </a>
+                <!-- Portfolio item 3 -->
+                <a href="portfolio-item3_sevdah-body.html" class="portfolio__item">
+                    <img src="img/Crafting.png" alt="dancer moving on stage with guitar player in background" class="portfolio__img">
+                    <div class="portfolio__item-tag">Unity 2D<br><strong>Crafting Mechanics</strong></div>
+                </a>
+            </div>
+        </section>
+        <footer class="footer">
+
+            <a href="mailto:akifzaman4040@gmail.com" class="footer__link">akifzaman4040@gmail.com</a>
+
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/md-akif-zaman-35740a162/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/akifzaman">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/akif.zaman.98">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+    </body>
+</html>
